@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site pessoal de um skatista de Guarulhos, SP. Compartilhando a paixão pelo skate e cultura urbana.">
+    <meta name="keywords" content="skate, Guarulhos, cultura urbana, skatista">
+    <meta name="author" content="Seu Nome">
+    <title>Meu Site Pessoal</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Link para o favicon -->
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        .bio, .contact {
+            margin: 20px 0;
+        }
+        .instagram {
+            text-align: center;
+            margin: 20px 0;
+        }
+        a {
+            color: #00aced; /* Cor do link */
+            text-decoration: none;
+            transition: text-decoration 0.3s ease; /* Transição suave */
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao meu site!</h1>
+        <p>Skatista de Guarulhos, SP</p>
+    </header>
+
+    <section class="bio">
+        <h2>Biografia</h2>
+        <p>Sou um apaixonado por skate e cultura urbana. A vida nas ruas de Guarulhos moldou meu estilo e minhas inspirações. Aqui, compartilho um pouco da minha jornada e do que eu amo.</p>
+    </section>
+
+    <section class="instagram">
+        <h2>@lele___1k</h2>
+        <p>Confira minhas aventuras e fotos no Instagram!</p>
+        <a href="https://www.instagram.com/@lele___1k" target="_blank">@lele___1k</a>
+    </section>
+
+    <section class="contact">
+        <h2>Contato</h2>
+        <p>Você pode entrar em contato comigo através do meu e-mail: <a href="mailto:lndrsilvamartins@gmail.com">lndrsilvamartins.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Leandro. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
